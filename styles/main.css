@@ -1,0 +1,51 @@
+:root{
+    --darkBlue: hsl(240, 38%, 20%);
+    --grayishBlue: hsl(240, 18%, 77%);
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+}
+.testimonial{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-image{
+    background-image: url(../images/pattern-bg.svg);
+    background-size: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonial .avatar{
+    padding-top: 20px;
+}
+
+.testimonial .control {
+    width: 60px;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.avatar img {
+    margin: 0 auto;
+    width: 280px;
+    height: 280px;
+}
+
+.testimonial-text-user{
+    display: none;
+}
+
+#tanya-profile{
+    display: block;
+}
