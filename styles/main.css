@@ -19,6 +19,7 @@ main {
 .testimonial-image{
     background-image: url(../images/pattern-bg.svg);
     background-size: 80%;
+    
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -33,11 +34,22 @@ main {
 .testimonial  .avatar .control {
     width: 60px;
     background-color: white;
+    padding: 4px;
     margin: 0 auto;
     position: relative;
     top: -26px;
+    z-index: 99;
+    border-radius: 20px;
+}
+.left-arrow{
+    position: relative;
+    left: -10px;
 }
 
+.right-arrow{
+    position: relative;
+    right: -10px;
+}
 .avatar .user-pic  {
     margin: 0 auto;
     padding-bottom:10px ;
