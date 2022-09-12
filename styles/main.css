@@ -108,4 +108,10 @@ main {
         margin-right: -190px;
         z-index: 999;
     }
+
+    .testimonial  .avatar .control {
+        margin: 0;
+        position: relative;
+        left: 20%;
+    }
 }
