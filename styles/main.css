@@ -18,8 +18,7 @@ main {
 }
 .testimonial-image{
     background-image: url(../images/pattern-bg.svg);
-    background-size: 50%;
-    background-size:contain;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -31,18 +30,20 @@ main {
     padding-top: 20px;
 }
 
-.testimonial .control {
+.testimonial  .avatar .control {
     width: 60px;
     background-color: white;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
+    top: -26px;
 }
 
-.avatar img {
+.avatar .user-pic  {
     margin: 0 auto;
     padding-bottom:10px ;
-    width: 70%;
+    width: 65%;
     height: 10%;
+    padding-top: 30px;
 }
 
 .testimonial-text-user{
