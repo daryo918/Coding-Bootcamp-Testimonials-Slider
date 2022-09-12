@@ -96,3 +96,16 @@ main {
     font-weight: lighter;
     color: var(--grayishBlue);
 }
+
+@media (min-width: 600px) {
+    .testimonial{
+        flex-direction: row;
+    }
+    .testimonial-image{
+        order:2;
+    }
+    .testimonial-content{
+        margin-right: -190px;
+        z-index: 999;
+    }
+}
