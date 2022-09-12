@@ -18,11 +18,13 @@ main {
 }
 .testimonial-image{
     background-image: url(../images/pattern-bg.svg);
-    background-size: 360px;
+    background-size: 50%;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     text-align: center;
+    max-width: 500px;
 }
 
 .testimonial .avatar{
@@ -38,8 +40,9 @@ main {
 
 .avatar img {
     margin: 0 auto;
-    width: 280px;
-    height: 280px;
+    padding-bottom:10px ;
+    width: 70%;
+    height: 10%;
 }
 
 .testimonial-text-user{
