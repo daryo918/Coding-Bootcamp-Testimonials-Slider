@@ -97,7 +97,7 @@ main {
     color: var(--grayishBlue);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 660px) {
     .testimonial{
         flex-direction: row;
     }
@@ -105,13 +105,18 @@ main {
         order:2;
     }
     .testimonial-content{
-        margin-right: -190px;
+        margin-right: -160px;
         z-index: 999;
+        font-size: 1rem;
+        text-align: right;
     }
 
     .testimonial  .avatar .control {
         margin: 0;
         position: relative;
         left: 20%;
+    }
+    .testimonial-contact{
+        text-align: left;
     }
 }
